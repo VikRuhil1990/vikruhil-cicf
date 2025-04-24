@@ -1,0 +1,4 @@
+uid,namedLocation,domainID,siteID,plotID,setDate,collectDate,subsampleID,subsampleCode,taxonID,scientificName,sex,testingID,testingIDCode,archiveID,archiveIDCode,individualIDList
+"1e652533-caa6-4a9a-a77b-413d8dec3abb","ABBY_040.mosquitoPoint.mos","D16","ABBY","ABBY_040","2023-05-23T01:26Z","2023-05-23T13:12Z","ABBY_040.20230523.0612.S.01",,"CULINO","Culiseta inornata","F",,,"ABBY.2023.20.CULINO.F.A",,"MOS.D16.000151"
+"5404780f-6d6a-48b9-adb1-da5692676c5c","ABBY_040.mosquitoPoint.mos","D16","ABBY","ABBY_040","2023-05-23T13:12Z","2023-05-24T00:38Z","ABBY_040.20230523.1738.S.01",,"CULINO","Culiseta inornata","F",,,,,"MOS.D16.000152"
+"f38fc125-6607-4d0d-8be8-8539d8115990","ABBY_035.mosquitoPoint.mos","D16","ABBY","ABBY_035","2023-05-23T14:55Z","2023-05-24T04:20Z","ABBY_035.20230523.2120.S.01",,"CULINO","Culiseta inornata","F",,,"ABBY.2023.20.CULINO.F.A",,

@@ -1,0 +1,7 @@
+uid,namedLocation,domainID,siteID,plotID,setDate,collectDate,processingDate,individualID,geneticSampleID,wellCoordinates,laboratoryName,identificationHistoryID
+"5d9aa280-4e14-44c7-9231-531cc20bd823","UNDE_066.mosquitoPoint.mos","D05","UNDE","UNDE_066","2023-08-09T23:35Z","2023-08-10T12:55Z","2024-02-10","MOS.D05.001743","MOS.D05.001743","E02","Kansas Biological Survey",
+"186b032e-edc5-4cb9-9165-2ab57d2fc5c1","UNDE_073.mosquitoPoint.mos","D05","UNDE","UNDE_073","2023-08-09T23:47Z","2023-08-10T13:22Z","2024-02-10","MOS.D05.001663","MOS.D05.001663","C10","Kansas Biological Survey",
+"eeeb4597-2fad-4ebc-b316-03c85257717f","UNDE_070.mosquitoPoint.mos","D05","UNDE","UNDE_070","2023-08-09T23:55Z","2023-08-10T13:36Z","2024-02-10","MOS.D05.001843","MOS.D05.001843","G03","Kansas Biological Survey",
+"aedd4b26-424e-4e32-a1c1-7746ebfb68fd","UNDE_068.mosquitoPoint.mos","D05","UNDE","UNDE_068","2023-08-10T00:24Z","2023-08-10T14:05Z","2024-02-10","MOS.D05.001767","MOS.D05.001767","E09","Kansas Biological Survey",
+"f2b4b252-f336-4ed6-9ca5-bb7c35f50ded","UNDE_071.mosquitoPoint.mos","D05","UNDE","UNDE_071","2023-08-23T22:56Z","2023-08-24T12:32Z","2024-02-10","MOS.D05.001624","MOS.D05.001624","B10","Kansas Biological Survey",
+"fa20a645-2577-47c1-9ca6-994313c5624f","UNDE_076.mosquitoPoint.mos","D05","UNDE","UNDE_076","2023-08-24T00:14Z","2023-08-24T14:02Z","2024-02-10","MOS.D05.001747","MOS.D05.001747","E04","Kansas Biological Survey",

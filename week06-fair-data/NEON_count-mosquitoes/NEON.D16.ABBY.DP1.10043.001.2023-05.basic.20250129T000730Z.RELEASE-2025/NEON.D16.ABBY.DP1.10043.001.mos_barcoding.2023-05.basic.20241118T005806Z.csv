@@ -1,0 +1,3 @@
+uid,namedLocation,domainID,siteID,plotID,setDate,collectDate,processingDate,individualID,geneticSampleID,wellCoordinates,laboratoryName,identificationHistoryID
+"d5c95538-4f0a-456f-a32d-a1f5437e1bd2","ABBY_040.mosquitoPoint.mos","D16","ABBY","ABBY_040","2023-05-23T01:26Z","2023-05-23T13:12Z","2024-02-23","MOS.D16.000151","MOS.D16.000151","A03","Vector Disease Control International",
+"8be48b74-98a0-4e05-9172-079ea9a1400a","ABBY_040.mosquitoPoint.mos","D16","ABBY","ABBY_040","2023-05-23T13:12Z","2023-05-24T00:38Z","2024-02-23","MOS.D16.000152","MOS.D16.000152","A04","Vector Disease Control International",

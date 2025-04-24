@@ -1,0 +1,226 @@
+This data package was produced by and downloaded from the National Ecological Observatory Network (NEON). NEON is
+funded by the National Science Foundation (Awards 0653461, 0752017, 1029808, 1138160, 1246537, 1638695, 1638696,
+1724433) and managed cooperatively by Battelle. These data are provided under the terms of the NEON data policy at
+https://www.neonscience.org/data-policy.
+
+DATA PRODUCT INFORMATION
+------------------------
+
+ID: NEON.DOM.SITE.DP1.10043.001
+
+Name: Mosquitoes sampled from CO2 traps
+
+Description: Taxonomically identified mosquitoes and the plots and times from which they were collected
+
+NEON Science Team Supplier: Terrestrial Observation System
+
+Abstract: This data product contains the quality-controlled, native sampling resolution data from NEON's mosquito sampling protocol. Mosquito abundance and diversity are sampled at regular intervals by NEON field technicians at all terrestrial sites. For additional details on protocol, see the TOS Protocol and Procedure: Mosquito Sampling. Following collection, all samples are sent to a professional taxonomist who determines the species composition and sex of mosquitoes from a representative subsample. Identified mosquitoes are then processed for pathogen analysis or preserved for final archiving. Products resulting from this sampling and processing include: records of when mosquitoes were sampled, taxonomic and abundance data for a subset of mosquitoes captured, and information about the material archived from the sample. For additional details, see the user guide, protocols, and science design listed in the Documentation section in this data product's details webpage.
+
+Latency: The expected time from data and/or sample collection in the field to data publication is as follows, for each of the data tables (in days) in the downloaded data package. See the Data Product User Guide for more information.
+
+mos_archivepooling: 360
+
+mos_barcoding: 420
+
+mos_expertTaxonomistIDProcessed: 240
+
+mos_expertTaxonomistIDRaw: 240
+
+mos_sorting: 240
+
+mos_subsampling: 360
+
+mos_trapping: 30
+
+mos_identificationHistory: 7
+
+Brief Design Description: When adult mosquitoes are active, sampling occurs (via CDC light traps) every two weeks at core sites and every four weeks at gradient sites. Before 2018, a sampling bout consisted of two trapping nights and the intervening day for up to ten plots per site. Beginning in 2018, a sampling bout consists of approximately 24 hours of trapping (one night and one daytime interval) at up to ten plots per site.
+
+Brief Study Area Description: These data are collected at NEON terrestrial sites.
+
+
+Keywords: Aedes, Animalia, COI, Culex, Culicidae, DNA barcoding, DNA sequences, Diptera, Insecta, abundance, arboviruses, archive, archived samples, biodiversity, community composition, disease, disease reservoirs, diversity, ectoparasites, flies, insects, introduced species, invasive species, invertebrates, material samples, mos, mosquitoes, native species, parasites, pathogens, population, species abundance, species composition, species diversity, specimens, taxonomy, traps, vector-borne, vectors
+
+
+QUERY INFORMATION
+-----------------
+
+Date-Time for Data Publication: 2024-11-18 11:05 (UTC)
+Start Date-Time for Queried Data: 2023-07-19 23:56 (UTC)
+End Date-Time for Queried Data: 2023-07-21 02:23 (UTC)
+
+Site: ABBY
+Geographic coordinates (lat/long datum): 
+Domain: D16
+
+
+DATA PACKAGE CONTENTS
+---------------------
+
+This folder contains the following documentation files:
+- This readme file: NEON.D16.ABBY.DP1.10043.001.readme.20250129T000730Z.txt
+- Term descriptions, data types, and units: NEON.D16.ABBY.DP1.10043.001.variables.20241118T110514Z.csv
+- Data entry validation and parsing rules: NEON.D16.ABBY.DP1.10043.001.validation.20241118T110514Z.csv
+- Machine-readable metadata file describing the data package: NEON.D16.ABBY.DP1.10043.001.EML.20230719-20230721.20250129T000730Z.xml.
+This file uses the Ecological Metadata Language (EML) schema. Learn more about this specification and tools to parse
+it at https://www.neonscience.org/about/faq.
+- Other related documents are available such as engineering specifications, field protocols, and data processing 
+documentation. Please visit https://data.neonscience.org/data-products/DP1.10043.001 for more information.
+
+
+This folder also contains 6 data files:
+NEON.D16.ABBY.DP1.10043.001.mos_sorting.2023-07.basic.20241118T110514Z.csv - Mosquito sorting data from external labs
+NEON.D16.ABBY.DP1.10043.001.mos_trapping.2023-07.basic.20241118T110514Z.csv - Mosquito trapping data from field operations
+NEON.D16.ABBY.DP1.10043.001.mos_barcoding.2023-07.basic.20241118T110514Z.csv - Mosquito barcoding sample data from external labs
+NEON.D16.ABBY.DP1.10043.001.mos_archivepooling.2023-07.basic.20241118T110514Z.csv - Mosquito archival information from external labs
+NEON.D16.ABBY.DP1.10043.001.mos_expertTaxonomistIDProcessed.2023-07.basic.20241118T110514Z.csv - Mosquito identifications by expert taxonomists - desynonomized
+NEON.D16.ABBY.DP1.10043.001.mos_subsampling.2023-07.basic.20241118T110514Z.csv - Generation of mosquito samples for barcoding, archiving and pathogen testing
+
+Basic download package definition: The basic download presents higher taxonomy information according to NEON and reassigns synonymies with the current valid name.
+
+Expanded download package definition: The expanded data package includes an additional file that includes the taxonomic nomenclature as received from the external taxonomist.
+
+
+FILE NAMING CONVENTIONS
+-----------------------
+
+NEON data files are named using a series of component abbreviations separated by periods. File naming conventions
+for NEON data files differ between NEON science teams. A file will have the same name whether it is accessed via
+NEON's data portal or API. Please visit https://www.neonscience.org/data-formats-conventions for a full description
+of the naming conventions.
+
+ISSUE LOG
+----------
+
+This log provides a list of issues identified during data collection or processing, prior to publication
+of this data package. For a more recent log, please visit this data product's detail page at
+https://data.neonscience.org/data-products/DP1.10043.001.
+
+Issue Date: 2023-11-08
+Issue: Bait method change: Chronic dry ice shortages are impacting the ability to deploy mosquito traps at sites experiencing supply chain issues (BART, DELA, GRSM, GUAN, HARV, LENO, MLBS, ORNL, PUUM, TALL).
+    Date Range: 2021-12-01 to 2024-02-28
+    Location(s) Affected: All
+Resolution Date: 2024-02-28
+Resolution: Beginning in 2022, we started testing CO2 delivery canisters at PUUM. Because CO2 canisters allow for a more consistent flow rate, more reliable supply availability, and lower long-term cost, all NEON sites transitioned to using canisters beginning in 2024. The type of CO2 delivery method is indicated in the data by setting the trapType field to CO2 canister (in contrast to dry ice). See the PUUM specific issue log for more information about the CO2 delivery testing.
+
+Issue Date: 2022-11-15
+Issue: proportionIdentified field: Mosquito sorting data included a subsampleWeight, bycatchWeight and totalWeight entry along with a weightBelowDetection column. These weight columns were intended only to be used to determine the proportion of a sample that was identified by the taxonomic laboratory to enable estimates of mosquito counts had the full sample been identified. These weights were potentially confusing because they represented wet mass and were only appropriate for within-sample comparisons rather than as indicators of biomass.
+    Date Range: 2014-11-01 to 2022-11-01
+    Location(s) Affected: All Terrestrial
+Resolution Date: 2022-12-31
+Resolution: The weight columns have been replaced with a proportionIdentified column that can be used to estimate the total number of mosquitoes in a sample.
+
+Issue Date: 2022-09-13
+Issue: Toolik Field Station required a quarantine period prior to starting work in the 2020, 2021, and 2022 field seasons to protect all personnel during the COVID-19 pandemic. This complicated NEON field scheduling logistics, which typically involves repeated travel across the state on short time frames. Consequently, NEON reduced staffing traveling to Toolik and was thus unable to complete all planned sampling efforts. Missed data collection events are indicated in data records via the samplingImpractical field.
+    Date Range: 2020-03-23 to 2022-12-31
+    Location(s) Affected: TOOL
+Resolution Date: 2022-10-31
+Resolution: The quarantine policy at Toolik Field Station ended after the 2022 field season.
+
+Issue Date: 2022-09-13
+Issue: Severe flooding destroyed several roads into Yellowstone National Park in June 2022, making the YELL and BLDE sites inaccessible to NEON staff. Observational data collection was halted during this time. Canceled data collection events are indicated in data records via the samplingImpractical field.
+    Date Range: 2022-06-12 to 2022-10-31
+    Location(s) Affected: YELL
+Resolution Date: 2022-10-31
+Resolution: Normal operations resumed on October 31, 2022, when the National Park Service opened a newly constructed road from Gardiner, MT to Mammoth, WY with minimal restrictions. For more details about data impacts, see Data Notification https://www.neonscience.org/impact/observatory-blog/data-impacts-neons-yellowstone-sites-yell-blde-due-catastrophic-flooding-0
+
+Issue Date: 2022-06-28
+Issue: Chronic dry ice shortages were impacting the ability to deploy mosquito traps in D20.
+    Date Range: 2021-12-01 to 2022-07-01
+    Location(s) Affected: PUUM
+Resolution Date: 2022-07-01
+Resolution: Resolution: Beginning in 2022, we replaced dry ice as bait in mosquito traps with CO2 delivery canisters. The initial pilot of the project began by using CO2 canisters in only 3 of 10 traps set with a flow rate of 1 Lpm used in canister traps.  Beginning in July 2022, the flow rate was adjusted to .65 Lpm to better match calculated dry ice sublimation rates at the site and all remaining traps were converted to use of the CO2 canister delivery method.  The type of CO2 delivery method is indicated in the data by setting the trapType field to CO2 canister (in contrast to dry ice).
+
+Issue Date: 2022-05-17
+Issue: Fields changed tables: Mosquito data product formatting was adjusted to simplify data entry workflows.
+    Date Range: 2012-01-01 to 2022-01-20
+    Location(s) Affected: All
+Resolution Date: 2022-01-20
+Resolution: The archiveID, testingID and individualIDList that are used to connect to the `archive_pooling`, `pathogen_pooling`, and `barcoding` tables respectively were moved from the `identification` table to the `subsampling` table.
+
+Issue Date: 2022-05-17
+Issue: Taxon change: Specimens labeled as _Aedes sollicitans_ and collected from D06 between 2019-2021 are most likely _Aedes nigromaculis_.
+    Date Range: 2019-01-01 to 2021-12-31
+    Location(s) Affected: KONA, KONZ, UKFS
+Resolution Date: 2022-01-12
+Resolution: The 2021 samples were reviewed directly and had their identifications updated to reflect the most current identification and an identificationHistoryID has been added to the data. This identificationHistoryID can be used to link to the records in the `identificationHistory` table that has the earlier identification recorded.  The 2019-2020 samples were maintained as _Aedes sollicitans_ in the data because they were not reviewed and confirmed directly.
+
+Issue Date: 2021-01-06
+Issue: Safety measures to protect personnel during the COVID-19 pandemic resulted in reduced or canceled sampling activities for extended periods at NEON sites. Data availability may be reduced during this time.
+    Date Range: 2020-03-23 to 2021-12-31
+    Location(s) Affected: All
+Resolution Date: 2021-12-31
+Resolution: 
+
+Issue Date: 2021-09-20
+Issue: Taxon change: Prior to 2021, all mosquitoes identified by Kansas Biological Survey as Aedes nigromaculis are actually Psorophora discolor.
+    Date Range: 2019-06-01 to 2020-10-01
+    Location(s) Affected: KONA, KONZ, UKFS
+Resolution Date: 2021-07-08
+Resolution: The data have been updated to reflect the most current identification and an identificationHistoryID has been added to the data.  This identificationHistoryID can be used to link to the records in the identificationHistory table that has the earlier identification recorded.
+
+Issue Date: 2021-09-20
+Issue: Taxon change: Prior to 2021, all mosquitoes identified by Kansas Biological Survey as Culiseta impatiens are actually Culiseta melanura.
+    Date Range: 2017-07-01 to 2020-08-01
+    Location(s) Affected: UNDE, STEI, TREE
+Resolution Date: 2020-11-10
+Resolution: The data have been updated to reflect the most current identification and an identificationHistoryID has been added to the data.  This identificationHistoryID can be used to link to the records in the identificationHistory table that has the earlier identification recorded.
+
+Issue Date: 2020-11-01
+Issue: Tracking taxon change: There is no way to track the taxonomic history of records for which species identification changes.
+    Date Range: 2013-01-01 to 2020-11-01
+    Location(s) Affected: All
+Resolution Date: 2020-11-01
+Resolution: The field identificationHistoryID has been added to the identification table. This field provides a unique identifier that links to the identification history table with information about previous taxonomic identifications and the date on which they were changed.
+
+Issue Date: 2020-05-04
+Issue: No data available: Sampling was only conducted at sites within the D02 domain (SCBI, SERC, BLAN) and at one site in the D19 domain (HEAL). Sampling was suspended at other site locations in 2015 due to storage space constraints and interruptions in contract agreements for taxonomic and pathogen assessment of collected samples. No data from this time frame will be returned for sites BART, CPER, DSNY, GUAN, HARV, JERC, ONAQ, ORNL, OSBS, STER, TALL, UNDE, or WOOD. No field sampling records or downstream processing results (e.g., abundance/taxonomic analyses) will be available for affected sites during this time frame.
+    Date Range: 2015-04-01 to 2015-12-31
+    Location(s) Affected: All terrestrial sites except SCBI, SERC, BLAN, HEAL
+Resolution Date: 2020-07-08
+Resolution: Contracts for taxonomic and pathogen analyses are in place, data will be returned going forward for all operational sites. All data that will be available from the affected time frame are posted.
+
+Issue Date: 2020-11-01
+Issue: No sampling impractical: There are sometimes fewer than the expected number of records for a given bout of sampling without a clear reason for the missing records.
+    Date Range: 2013-01-01 to 2020-03-05
+    Location(s) Affected: All
+Resolution Date: 2020-04-01
+Resolution: The field samplingImpractical was added to the data to allow for the generation of a record when a plot or site could not be sampled. If sampling could not be conducted for all or part of a bout, the samplingImpractical field will communicate the reason for the missing records.
+
+Issue Date: 2018-01-01
+Issue: Reduced bout duration:: The original mosquito sampling design accommodated two nights and one day of trapping during each bout (approx. 40 hours of sampling) and up to 30 samples could be generated per site per bout. In 2018, reductions in sampling were necessary due to budget limitations (both the field sampling and analytical budgets).
+    Date Range: 2012-01-01 to 2018-01-01
+    Location(s) Affected: All terrestrial sites
+Resolution Date: 2018-01-01
+Resolution: Beginning in 2018, the sampling design was altered to eliminate one night of trapping from each bout, resulting in a reduced duration of sampling per bout (approx. 24 hours per plot). For collections occurring after 2018, the maximum number of samples generated per bout does not exceed 20 samples.
+
+Issue Date: 2020-11-10
+Issue: No weights for samples: Prior to 2015, mosquitoes were subsampled using a petri dish to estimate the percent of a subsample that was enumerated rather than by recording the weights for the total sample and subsample.
+    Date Range: 2013-01-01 to 2015-01-01
+    Location(s) Affected: All
+Resolution Date: 2015-01-01
+Resolution: The weights entered for samples collected prior to 2015 are only useful for estimating the percent of the total sample that was counted. The weights do not reflect the true weight of the sample or bycatch.
+
+
+ADDITIONAL INFORMATION
+----------------------
+
+
+Queries for this data product will return data collected during the date range specified. The protocol dictates that each `mos_trapping.sampleID` should be recorded once. A record in `mos_trapping` may have 0 (if no mosquitoes collected) or one child record in `mos_sorting`, which generates a single subsampleID. Each `mos_identification.subsampleID` generates a single record in `mos_identification` for each scientificName * sex combination. The value(s) contained in the `mos_subsampling.archiveID` may be used to find associated records in `mos_archivepooling`. The value(s) contained in `mos_subsampling.individualIDList` may be used to find associated records in the Mosquito sequences DNA barcode product (DP1.10038.001). The values in `mos_subsampling.testingID` may be used to find associated records in the Mosquito-borne pathogen status product (DP1.10041.001). Duplicates may exist where protocol and/or data entry aberrations have occurred; users should check data carefully for anomalies before joining tables. If taxonomic determinations have been updated for any records in the tables `mos_barcoding`,` mos_expertTaxonomistIDProcessed`, or `mos_expertTaxonomistIDRaw`, past determinations are archived in the `mos_identificationHistory` table, where the archived determinations are linked to current records using identificationHistoryID.
+
+NEON DATA POLICY AND CITATION GUIDELINES
+----------------------------------------
+
+A citation statement is available in this data product's detail page at
+https://data.neonscience.org/data-products/DP1.10043.001. Please visit https://www.neonscience.org/data-policy for
+more information about NEON's data policy and citation guidelines.
+
+DATA QUALITY AND VERSIONING
+---------------------------
+
+NEON data are initially published with a status of Provisional, in which updates to data and/or processing
+algorithms will occur on an as-needed basis, and query reproducibility cannot be guaranteed. Once data are published
+as part of a Data Release, they are no longer provisional, and are associated with a stable DOI.
+
+To learn more about provisional versus released data, please visit
+https://www.neonscience.org/data-revisions-releases.

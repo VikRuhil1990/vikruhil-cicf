@@ -1,0 +1,15 @@
+# Ignore data files
+*.csv
+*.csv.gz
+*.json
+*.jsonl
+*.zip
+*.hdf5
+*.xlsx
+*.tsv
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+venv/
+.env/
+*.env
