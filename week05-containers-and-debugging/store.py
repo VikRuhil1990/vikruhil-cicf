@@ -8,10 +8,10 @@ from minio import Minio
 # read the contents and if it is a single integer N, make a new object having
 # the name `result-*` that contains the N-th fibinocci number.
 
-ACCESS_KEY = ""
-SECRET_KEY = ""
+ACCESS_KEY = "2Hxr1qCcSrOEFgpDxiFL"
+SECRET_KEY = "GkpLi0C9ujeEwcpX1DbNVU0p2MQWofYuECO38Sh3"
 bucket_name = "cicf-data"
-
+breakpoint()
 c = Minio("localhost:9000", ACCESS_KEY, SECRET_KEY, secure=False)
 
 def fib(n):
